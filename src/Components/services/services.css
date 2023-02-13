@@ -325,6 +325,23 @@
         padding: 0;
     }
 
+    .plaques
+    {
+        display: grid;
+        grid-template-columns: max-content;
+    }
+
+    .services__subtitle::after {
+      right: 3.5rem;
+      width: 30px;
+      overflow: hidden;
+    }
+  
+    .services__subtitle::before {
+      width: 30px;
+      left: 1.5rem;
+    }
+
   }
   
   /* For small devices */
