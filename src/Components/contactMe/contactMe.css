@@ -1,0 +1,88 @@
+.contact__data{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    align-items: center;
+}
+
+.button.button--flex.contactMe{
+    margin-left: auto;
+    margin-right: 3rem;
+    width: 175px;
+}
+.button.button--flex.downloadME {
+    width: 175px;
+}
+
+
+
+
+.contact__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+.contact__description {
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+}
+.contact__img{
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contact_buttons{
+    padding-top: 1.5rem;
+    column-span: all;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+
+}
+.contact_content {
+    display: grid;
+}
+.contact__container{
+    padding-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+@media screen and (max-width: 576px) {
+    .button.button--flex.contactMe {
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        width: 100px;
+        margin-right: 1.1rem;
+    }
+
+    .button.button--flex.downloadME {
+        padding-right: 3rem;
+        display:inline-grid;
+        width: 100px;
+        padding: 1rem;
+    }
+    .button__icon {
+        margin-left: 0;
+        justify-self: center;
+    }
+
+    .contact_buttons {
+        display: inline-flex;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+
+    .contact_buttons {
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        row-gap: 15px;
+    }
+}

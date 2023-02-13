@@ -1,0 +1,95 @@
+.skills__container{
+    display: flex;
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 3rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.skills__content {
+    background-color: rgb(225, 134, 30);
+    border: 1px solid rgb(225, 134, 30);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.skills__title {
+    font-size: var(--medium-font-size);
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+    color : white
+}
+
+.skills__box {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+
+.skills__group{
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+    text-align: left;
+}
+
+.skills__data {
+    display:grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.5rem;
+    color: black;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills .bx-badge-check {
+    font-size: 1rem;
+    color: black;
+}
+
+.skills__name {
+    font-size: var(--medium-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+    color : black;
+    text-align: center;
+}
+
+.skills__level {
+    font-size: var(--small-font-size);
+    justify-self: center;
+    color : white;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .skills__container {
+        display: grid;
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills__container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .skills__content {
+        padding: 1.5rem;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .skills__box {
+        column-gap: 1.25rem;
+    }
+
+    .skills__name {
+        font-size: var(--small-font-size)
+    }
+}
