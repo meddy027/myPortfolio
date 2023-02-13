@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Eddy_Web_Portfolio/static/css/main.4e7cbd15.css",
-    "main.js": "/Eddy_Web_Portfolio/static/js/main.f29a781e.js",
-    "static/js/787.c9ef8389.chunk.js": "/Eddy_Web_Portfolio/static/js/787.c9ef8389.chunk.js",
-    "static/media/Me.jpeg": "/Eddy_Web_Portfolio/static/media/Me.6c7f113ca9c9347229ed.jpeg",
-    "static/media/Kobe_Bryant_2014.jpeg": "/Eddy_Web_Portfolio/static/media/Kobe_Bryant_2014.5d431d02cbf36619de5f.jpeg",
-    "static/media/seinfield.jpeg": "/Eddy_Web_Portfolio/static/media/seinfield.b01d66ae63347e035150.jpeg",
-    "static/media/AiML.jpeg": "/Eddy_Web_Portfolio/static/media/AiML.97ada63d5149ffc39e95.jpeg",
-    "static/media/mikeconley.png": "/Eddy_Web_Portfolio/static/media/mikeconley.0fd1b0bb9d51156022a5.png",
-    "static/media/testimonial3.png": "/Eddy_Web_Portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
-    "static/media/testimonial2.png": "/Eddy_Web_Portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
-    "static/media/2023_Eddy_Resume.docx": "/Eddy_Web_Portfolio/static/media/2023_Eddy_Resume.080750a531def765b666.docx",
-    "static/media/testimonial1.png": "/Eddy_Web_Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
-    "index.html": "/Eddy_Web_Portfolio/index.html",
-    "main.4e7cbd15.css.map": "/Eddy_Web_Portfolio/static/css/main.4e7cbd15.css.map",
-    "main.f29a781e.js.map": "/Eddy_Web_Portfolio/static/js/main.f29a781e.js.map",
-    "787.c9ef8389.chunk.js.map": "/Eddy_Web_Portfolio/static/js/787.c9ef8389.chunk.js.map"
+    "main.css": "/html_design_assignment/static/css/main.4e7cbd15.css",
+    "main.js": "/html_design_assignment/static/js/main.58c16212.js",
+    "static/js/787.c9ef8389.chunk.js": "/html_design_assignment/static/js/787.c9ef8389.chunk.js",
+    "static/media/Me.jpeg": "/html_design_assignment/static/media/Me.6c7f113ca9c9347229ed.jpeg",
+    "static/media/Kobe_Bryant_2014.jpeg": "/html_design_assignment/static/media/Kobe_Bryant_2014.5d431d02cbf36619de5f.jpeg",
+    "static/media/seinfield.jpeg": "/html_design_assignment/static/media/seinfield.b01d66ae63347e035150.jpeg",
+    "static/media/AiML.jpeg": "/html_design_assignment/static/media/AiML.97ada63d5149ffc39e95.jpeg",
+    "static/media/mikeconley.png": "/html_design_assignment/static/media/mikeconley.0fd1b0bb9d51156022a5.png",
+    "static/media/testimonial3.png": "/html_design_assignment/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/testimonial2.png": "/html_design_assignment/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/2023_Eddy_Resume.docx": "/html_design_assignment/static/media/2023_Eddy_Resume.080750a531def765b666.docx",
+    "static/media/testimonial1.png": "/html_design_assignment/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/html_design_assignment/index.html",
+    "main.4e7cbd15.css.map": "/html_design_assignment/static/css/main.4e7cbd15.css.map",
+    "main.58c16212.js.map": "/html_design_assignment/static/js/main.58c16212.js.map",
+    "787.c9ef8389.chunk.js.map": "/html_design_assignment/static/js/787.c9ef8389.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e7cbd15.css",
-    "static/js/main.f29a781e.js"
+    "static/js/main.58c16212.js"
   ]
 }
