@@ -200,13 +200,6 @@
 }
 
 @media screen and (max-width: 580px) {
-  .home__content {
-    display: block;
-      grid-template-columns: 50px repeat(1,1fr);
-      padding-top: 3.5rem;
-      padding-right: 10px;
-
-  }
   .home__description{
     flex-wrap: wrap;
   }
@@ -254,15 +247,16 @@
 @media screen and (max-width: 416px) {
 
   .home__social {
-    display: flex;
+    display: inline-flex;
     width: auto;
-    margin-left: 35%;
+    column-gap: 10px;
+    margin-left: 25%;
 }
   .uil.uil-linkedin,
   .uil.uil-instagram,
   .uil.uil-github-alt {
 
-    font-size: 22px;
+    font-size: 35px;
 
   } 
 
@@ -270,14 +264,19 @@
 
 @media screen and (max-width: 350px) {
   .home__social{
+    display: flex;
+    margin-left: 12px;
+
     justify-content: center;
-    width: 50px;
+    width: 100%;
+    column-gap: 20px;
   }
   .uil.uil-linkedin,
   .uil.uil-instagram,
   .uil.uil-github-alt {
 
-    font-size: 22px;
+    font-size: 200%;
+
 
   } 
 
