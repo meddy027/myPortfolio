@@ -252,10 +252,12 @@
 }
 
 @media screen and (max-width: 416px) {
-  .home__social{
-    display: block;
-    margin-left: 5rem;
-  }
+
+  .home__social {
+    display: flex;
+    width: auto;
+    margin-left: 35%;
+}
   .uil.uil-linkedin,
   .uil.uil-instagram,
   .uil.uil-github-alt {
@@ -268,8 +270,8 @@
 
 @media screen and (max-width: 350px) {
   .home__social{
-    display: flex;
     justify-content: center;
+    width: 50px;
   }
   .uil.uil-linkedin,
   .uil.uil-instagram,
